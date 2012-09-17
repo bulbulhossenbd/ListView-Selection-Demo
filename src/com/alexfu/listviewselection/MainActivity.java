@@ -34,7 +34,7 @@ public class MainActivity extends SherlockListActivity implements AdapterView.On
 			mActionMode = new MainActionMode();
 		}
 				
-		mListAdapter.setChoiceMode(ChoiceMode.SINGLE); // Set the desired choice mode.
+		mListAdapter.setChoiceMode(ChoiceMode.MULTIPLE); // Set the desired choice mode.
 		mListAdapter.setItemChecked(position, true); // Set the current position as checked.
 		
 		startActionMode(mActionMode);
